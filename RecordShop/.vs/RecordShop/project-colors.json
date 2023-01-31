@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2f6cf77c-8111-4391-9ea4-7e7ef34c324d": {
+      "ProjectGuid": "2f6cf77c-8111-4391-9ea4-7e7ef34c324d",
+      "DisplayName": "RecordShop",
+      "ColorIndex": 0
+    },
+    "bbffd0e0-4acb-471d-8974-b591f4ce8c0c": {
+      "ProjectGuid": "bbffd0e0-4acb-471d-8974-b591f4ce8c0c",
+      "DisplayName": "RecordShop.BLL",
+      "ColorIndex": 1
+    },
+    "a4a02a67-3101-4cd0-bb4f-3b0fd95ce815": {
+      "ProjectGuid": "a4a02a67-3101-4cd0-bb4f-3b0fd95ce815",
+      "DisplayName": "RecordShop.DAL",
+      "ColorIndex": 2
+    },
+    "58d9717d-9b2b-477e-9fed-63c1e375ea52": {
+      "ProjectGuid": "58d9717d-9b2b-477e-9fed-63c1e375ea52",
+      "DisplayName": "TokenHelper",
+      "ColorIndex": 3
+    },
+    "3e2e6c4a-1633-4e10-b141-d06297dc304c": {
+      "ProjectGuid": "3e2e6c4a-1633-4e10-b141-d06297dc304c",
+      "DisplayName": "Interfaces",
+      "ColorIndex": 4
+    },
+    "f54499ef-c8b1-4fbd-ae91-4deea910a6c4": {
+      "ProjectGuid": "f54499ef-c8b1-4fbd-ae91-4deea910a6c4",
+      "DisplayName": "Managers",
+      "ColorIndex": 5
+    },
+    "3996a181-816e-4848-8101-367984ef231f": {
+      "ProjectGuid": "3996a181-816e-4848-8101-367984ef231f",
+      "DisplayName": "RecordShop.DAL",
+      "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 7
+}

@@ -1,0 +1,12 @@
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.DAL\bin\Debug\net5.0\RecordShop.DAL.deps.json
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.DAL\bin\Debug\net5.0\RecordShop.DAL.dll
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.DAL\bin\Debug\net5.0\ref\RecordShop.DAL.dll
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.DAL\bin\Debug\net5.0\RecordShop.DAL.pdb
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.DAL\obj\Debug\net5.0\RecordShop.DAL.csproj.AssemblyReference.cache
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.DAL\obj\Debug\net5.0\RecordShop.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.DAL\obj\Debug\net5.0\RecordShop.DAL.AssemblyInfoInputs.cache
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.DAL\obj\Debug\net5.0\RecordShop.DAL.AssemblyInfo.cs
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.DAL\obj\Debug\net5.0\RecordShop.DAL.csproj.CoreCompileInputs.cache
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.DAL\obj\Debug\net5.0\RecordShop.DAL.dll
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.DAL\obj\Debug\net5.0\ref\RecordShop.DAL.dll
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.DAL\obj\Debug\net5.0\RecordShop.DAL.pdb

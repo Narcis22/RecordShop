@@ -1,0 +1,48 @@
+ <div class = "container">  
+  <mat-card class="artist-grid" *ngFor="let artist of artists">
+
+    <div class="name-item">
+      <form class="display-form">
+        <mat-form-field>
+          <mat-label>Artist</mat-label>
+          <input matInput value='{{artist.firstName}} {{artist.lastName}}' readonly/>
+        </mat-form-field>
+      </form>
+    </div>
+    
+    <div class="about-item">
+      
+      <button mat-flat-button style="height:50px; background-color: transparent;" (click)="info(artist)">
+        <label>About</label>
+        <img src="../../../../assets/media/artist-info.png" height=50px>
+      </button>
+    </div>
+    
+    <div class="edit-item" *ngIf="isAdmin()">
+      <button mat-raised-button color="primary" (click)="edit(artist)" appHoverButton> 
+        <mat-icon> edit </mat-icon>
+      </button>
+    </div>
+    
+    <div class="delete-item" *ngIf="isAdmin()">
+      <button mat-raised-button color="primary" (click)="delete(artist)" appHoverButton> 
+        <mat-icon> delete </mat-icon>
+      </button>
+    </div>
+
+    <div class="select-item">
+      <button mat-raised-button color="primary" (click)="select(artist)" appHoverButton> 
+        <mat-icon> check </mat-icon>
+      </button>
+    </div>
+    
+  </mat-card>
+    <button mat-fab color="primary" *ngIf="isAdmin()" (click)="add()" style="margin:15px;" appHoverButton>
+      <mat-icon> add </mat-icon>
+    </button>
+
+</div>
+
+
+
+

@@ -1,0 +1,82 @@
+
+  <app-header></app-header>
+
+  <div class="container">
+    <mat-card class="cart-card">    
+      <mat-card-title style="padding:10px;">Hello there, {{email.split('@')[0]}} </mat-card-title><br>
+
+      <mat-label style="text-align: center; padding-left:60px; font-size: 30px; font-weight: bold; margin-bottom:15px;">Your shopping cart:</mat-label>
+
+      <mat-card class="cart-elem-grid" *ngFor="let elem of songcart">
+          <div calss="icon-item">
+            <img src="../../../assets/media/song-cover.png" height=40px>
+          </div>
+
+          <div class="name-item">
+            <form class="display-form">
+              <mat-form-field>
+                <mat-label>Song name</mat-label>
+                <input matInput value={{elem.name}} readonly/>
+              </mat-form-field>
+            </form>
+          </div>
+          
+          <div class="price-item">
+            <form class="display-form">
+              <mat-form-field>
+                <mat-label>Price</mat-label>
+                <input matInput value='{{elem.price}}$' readonly/>
+              </mat-form-field>
+            </form>
+          </div>
+          
+          <div class="exemplaries-item">
+            <form class="display-form">
+              <mat-form-field>
+                <mat-label>No copies</mat-label>
+                <input matInput value='{{elem.noCopiesInCart}}' readonly/>
+              </mat-form-field>
+            </form>
+          </div>
+
+          <div class="tot-price-item">
+            <form class="display-form">
+              <mat-form-field>
+                <mat-label>Price for all copies</mat-label>
+                <input matInput value='{{elem.priceOfNoCopies}}' readonly/>
+              </mat-form-field>
+            </form>
+          </div>
+          
+          <div class="add-item">
+            <button mat-raised-button color="primary" (click)="add(elem)" appHoverButton>
+              <mat-icon> add_shopping_cart </mat-icon>
+            </button>
+          </div>
+          
+          <div class="remove-item">
+            <button mat-raised-button color="primary" (click)="minus(elem)" appHoverButton>
+              <img src="../../../assets/media/minus.png" height=10px;>
+            </button>
+          </div>
+      </mat-card>
+      
+      <div class="order-total">
+        <p style="font-size:30px; font-weight: bold; float: right;"> {{totalPrice}} $</p>
+      </div>
+
+      <div class="grid-bttn">
+          <button mat-fab color="primary" class="back-to-songs" (click)="goBack()" appHoverButton> 
+            <mat-icon>arrow_back</mat-icon>
+          </button>
+          <button mat-fab color="primary" class="standard-bttn" (click)="discard()" appHoverButton> 
+            <mat-icon> delete </mat-icon> 
+          </button>
+          <button mat-fab color="primary" class="standard-bttn" (click)="placeOrder()" appHoverButton> 
+            <mat-icon>send</mat-icon>
+          </button>
+      </div>
+    </mat-card>
+  </div>
+
+  <app-footer></app-footer>

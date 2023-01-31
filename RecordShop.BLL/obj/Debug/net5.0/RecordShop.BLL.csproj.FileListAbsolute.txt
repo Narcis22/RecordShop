@@ -1,0 +1,45 @@
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.csproj.AssemblyReference.cache
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.AssemblyInfoInputs.cache
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.AssemblyInfo.cs
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.csproj.CoreCompileInputs.cache
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.BLL\bin\Debug\net5.0\RecordShop.BLL.deps.json
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.BLL\bin\Debug\net5.0\RecordShop.BLL.dll
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.BLL\bin\Debug\net5.0\ref\RecordShop.BLL.dll
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.BLL\bin\Debug\net5.0\RecordShop.BLL.pdb
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.BLL\bin\Debug\net5.0\RecordShop.DAL.dll
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.BLL\bin\Debug\net5.0\RecordShop.DAL.pdb
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.csproj.CopyComplete
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.dll
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.BLL\obj\Debug\net5.0\ref\RecordShop.BLL.dll
+C:\Users\narci\OneDrive\Documents\GitHub\RecordShop\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.pdb
+D:\RS\RecordShop.BLL\bin\Debug\net5.0\RecordShop.BLL.deps.json
+D:\RS\RecordShop.BLL\bin\Debug\net5.0\RecordShop.BLL.dll
+D:\RS\RecordShop.BLL\bin\Debug\net5.0\ref\RecordShop.BLL.dll
+D:\RS\RecordShop.BLL\bin\Debug\net5.0\RecordShop.BLL.pdb
+D:\RS\RecordShop.BLL\bin\Debug\net5.0\RecordShop.DAL.dll
+D:\RS\RecordShop.BLL\bin\Debug\net5.0\RecordShop.DAL.pdb
+D:\RS\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.csproj.AssemblyReference.cache
+D:\RS\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\RS\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.AssemblyInfoInputs.cache
+D:\RS\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.AssemblyInfo.cs
+D:\RS\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.csproj.CoreCompileInputs.cache
+D:\RS\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.csproj.CopyComplete
+D:\RS\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.dll
+D:\RS\RecordShop.BLL\obj\Debug\net5.0\ref\RecordShop.BLL.dll
+D:\RS\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.pdb
+C:\Narcis\School\Frontnd Avansat\Angular\Project_DAW_Necula_Narcis_242\RecordShop.BLL\bin\Debug\net5.0\RecordShop.BLL.deps.json
+C:\Narcis\School\Frontnd Avansat\Angular\Project_DAW_Necula_Narcis_242\RecordShop.BLL\bin\Debug\net5.0\RecordShop.BLL.dll
+C:\Narcis\School\Frontnd Avansat\Angular\Project_DAW_Necula_Narcis_242\RecordShop.BLL\bin\Debug\net5.0\RecordShop.BLL.pdb
+C:\Narcis\School\Frontnd Avansat\Angular\Project_DAW_Necula_Narcis_242\RecordShop.BLL\bin\Debug\net5.0\RecordShop.DAL.dll
+C:\Narcis\School\Frontnd Avansat\Angular\Project_DAW_Necula_Narcis_242\RecordShop.BLL\bin\Debug\net5.0\RecordShop.DAL.pdb
+C:\Narcis\School\Frontnd Avansat\Angular\Project_DAW_Necula_Narcis_242\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.csproj.AssemblyReference.cache
+C:\Narcis\School\Frontnd Avansat\Angular\Project_DAW_Necula_Narcis_242\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Narcis\School\Frontnd Avansat\Angular\Project_DAW_Necula_Narcis_242\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.AssemblyInfoInputs.cache
+C:\Narcis\School\Frontnd Avansat\Angular\Project_DAW_Necula_Narcis_242\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.AssemblyInfo.cs
+C:\Narcis\School\Frontnd Avansat\Angular\Project_DAW_Necula_Narcis_242\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.csproj.CoreCompileInputs.cache
+C:\Narcis\School\Frontnd Avansat\Angular\Project_DAW_Necula_Narcis_242\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.csproj.CopyComplete
+C:\Narcis\School\Frontnd Avansat\Angular\Project_DAW_Necula_Narcis_242\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.dll
+C:\Narcis\School\Frontnd Avansat\Angular\Project_DAW_Necula_Narcis_242\RecordShop.BLL\obj\Debug\net5.0\refint\RecordShop.BLL.dll
+C:\Narcis\School\Frontnd Avansat\Angular\Project_DAW_Necula_Narcis_242\RecordShop.BLL\obj\Debug\net5.0\RecordShop.BLL.pdb
+C:\Narcis\School\Frontnd Avansat\Angular\Project_DAW_Necula_Narcis_242\RecordShop.BLL\obj\Debug\net5.0\ref\RecordShop.BLL.dll

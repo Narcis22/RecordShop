@@ -1,0 +1,35 @@
+.page-container{
+    text-align: center;
+}
+
+.grid-auth-container {
+    display: grid;
+    grid-template-rows: auto auto;
+    width: 100%;
+    justify-content: center;
+}
+
+.login-section {
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center !important;
+}
+
+.register-section {
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-radius:10px;
+    text-align: center !important;
+}
+
+.nav-songs{
+    margin-top:-10px;
+    margin-bottom:20px;
+    border: 2px solid !important;
+}

@@ -1,0 +1,38 @@
+<div class="container">
+  <mat-card class="card-register">
+    <mat-card-title>Register</mat-card-title>
+  
+      <form [formGroup]="registerForm" class="form">
+        <mat-form-field appearance="outline">
+          <mat-label>Email</mat-label>
+          <input matInput 
+          placeholder="email" 
+          formControlName="email"/>
+        </mat-form-field>
+  
+        <mat-form-field appearance="outline">
+          <mat-label>Password</mat-label>
+          <input matInput 
+          placeholder="password" 
+          type="password" 
+          formControlName="password"/>
+        </mat-form-field>
+
+        <div [hidden] = "Unauthorised()">
+          <mat-form-field appearance="outline">
+            <mat-label>Role</mat-label>
+            <select matNativeControl required>
+              <option value="User">User</option>
+              <option value="Admin">Admin</option>
+            </select>
+          </mat-form-field>
+        </div>
+      </form>
+    
+      <button mat-raised-button color="primary" [disabled]="registerForm.invalid" (click)="register()" appHoverButton> Register </button>
+
+  </mat-card>
+</div>
+
+<div class="alert alert-danger" [hidden]="!error">{{error}}</div>
+ 

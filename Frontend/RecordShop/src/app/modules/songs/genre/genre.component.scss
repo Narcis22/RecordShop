@@ -1,0 +1,59 @@
+ 
+.grid-genres{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  width:60%;
+  margin:50px;
+  
+  .genres-list-grid{
+    display:grid;
+    grid-template-columns: 20% 40% 40%;
+    margin:20px;
+    width:200px;
+    border-radius: 10px;
+    margin:15px;
+    background-color: dodgerblue;
+    font-size: large;
+
+    .name-item{
+      font-size:xx-large !important;
+    }
+
+    .edit-item{
+      margin:10px;
+    }
+
+    .select-item{
+      margin:10px;
+
+    }
+  }
+}
+
+
+  .user {
+    width: 50%;
+    text-align: center;
+  }
+
+  .admin {
+    width: calc(100%/3);
+    text-align: center;
+  }
+
+  .delete-button {
+    margin-bottom: 20px;
+  }
+ 
+
+  .add-button {
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+  }
+
+  .mat-header-row {
+      height: 1px;
+  }

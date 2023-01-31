@@ -1,0 +1,43 @@
+<div class="container">
+
+  <mat-card-title style="padding:30px;margin-top:50px;">{{title}}</mat-card-title>
+  
+  <mat-card class="info-list">
+    <div class="name-item">
+      <form class="display-form">
+        <mat-form-field>
+          <mat-label>Artist Name</mat-label>
+          <input matInput value='{{data.firstName}} {{data.lastName}}' readonly/>
+        </mat-form-field>
+      </form>
+    </div>
+
+    <div class="nationalioty-item">
+      <form class="display-form" *ngIf="artistInfo.nationality != null">
+        <mat-form-field>
+          <mat-label>Nationality</mat-label>
+          <input matInput value='{{artistInfo.nationality}}' readonly/>
+        </mat-form-field>
+      </form>
+    </div>
+
+    <div class="birth-item" *ngIf="artistInfo.birthYear != null">
+      <form class="display-form">
+        <mat-form-field>
+          <mat-label>Birth year</mat-label>
+          <input matInput value='{{artistInfo.birthYear}}' readonly/>
+        </mat-form-field>
+      </form>
+    </div>
+
+    <div class="death-item" *ngIf="artistInfo.deathYear != null">
+      <form class="display-form">
+        <mat-form-field>
+          <mat-label>Death year</mat-label>
+          <input matInput value='{{artistInfo.deathYear}}' readonly/>
+        </mat-form-field>
+      </form>
+    </div>
+  </mat-card>
+
+</div>

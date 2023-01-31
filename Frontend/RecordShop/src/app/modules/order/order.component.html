@@ -1,0 +1,36 @@
+<app-header></app-header>
+
+<div class="contaier-order-history">
+
+  <mat-card class="order-history-card">
+
+    <mat-card-title style="text-align: center; padding-top:30px"> Order history </mat-card-title>
+
+    <!--<mat-card class="order-history-list" *ngFor="let order from orders">
+      <div class="icon-item">
+        <img src="../../../assets/media/order-history.png" height=200px>
+      </div>
+
+      <div class="summary-item">
+
+      </div>
+    </mat-card>-->
+<!--Order info must be parsed as json and the info managed into columns of table, did not have time to do so here is just plain info form database-->
+    <div class="container">  
+      <table>
+        <tr *ngFor="let order of orders">
+          <td class="line"><span style="white-space: pre-line"> {{order}} </span></td>
+        </tr>
+      </table>
+    </div>
+
+    <div>
+      <button mat-fab color="primary" class="back-to-songs" (click)="goBack()" appHoverButton> 
+        <mat-icon>arrow_back</mat-icon>
+      </button>
+    </div>
+    
+  </mat-card>
+</div>
+
+<app-footer></app-footer>

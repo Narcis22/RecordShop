@@ -1,0 +1,126 @@
+<app-header></app-header>
+
+<div class="song-container">
+
+  <div class="bttn-grid" style="margin-top: 50px;">
+      <button mat-fab color="primary"  style="margin: 15px" (click)="auth()" appHoverButton>
+        <img src="../../../../assets/media/auth.png" height=25>
+      </button>
+      <button mat-fab color="primary" style="margin: 15px"  (click)="goToUserCart()" appHoverButton>
+        <mat-icon> shopping_cart </mat-icon>
+      </button>
+      <button mat-fab color="primary" style="margin: 15px"  (click)="goToOrders()" appHoverButton>
+        <img src="../../../../assets/media/order-history.png" height=25>
+      </button>
+      <button mat-fab color="primary"  style="margin: 15px" (click)="logout()" appHoverButton>
+        <img src="../../../../assets/media/logout.png" height=25>
+      </button>
+  </div>
+
+  <mat-card class="first-card">
+    <mat-tab-group dynamicHeight class="genre-artist">
+
+        <mat-tab label="Genres">
+          <app-genre [messageFromSongs]="parentMessage" (givenGenre)="receiveMessageFromGenre($event)"></app-genre>
+        </mat-tab>
+
+        <mat-tab label="Artists">
+          <app-artist (givenArtist)="receiveMessageFromArtist($event)"></app-artist>
+        </mat-tab>
+
+    </mat-tab-group>
+  </mat-card>
+
+  <mat-card class="second-card">
+    <mat-card-title style="text-align: center; padding-top:30px; padding-bottom:30px;"> Inventory </mat-card-title>
+
+    <mat-card class="table-replacement-grid" *ngFor="let song of songs">
+
+      <div class="cover-item">
+        <img src="../../../../assets/media/song-cover.png" height=110px>
+      </div>
+
+      <div class="name-item">
+        <form class="display-form">
+          <mat-form-field>
+            <mat-label>Song name</mat-label>
+            <input matInput value={{song.name}} readonly/>
+          </mat-form-field>
+        </form>
+      </div>
+
+      <div class="release-item">
+        <form class="display-form">
+          <mat-form-field>
+            <mat-label>Release Year</mat-label>
+            <input matInput value={{song.releaseYear}} readonly/>
+          </mat-form-field>
+        </form>
+      </div>
+
+      <div class="album-item">
+        <form class="display-form">
+          <mat-form-field>
+            <mat-label>Album name</mat-label>
+            <input matInput value={{song.album}} readonly/>
+          </mat-form-field>
+        </form>
+      </div>
+
+      <div class="edit-item" *ngIf="role == 'Admin'">
+        <button mat-raised-button color="primary" (click)="edit(song)" appHoverButton> 
+          <mat-icon> edit </mat-icon>
+        </button>
+      </div>
+        
+      <div class="delete-item" *ngIf="role == 'Admin'">
+        <button mat-raised-button color="primary" (click)="delete(song)" appHoverButton> 
+          <mat-icon> delete </mat-icon>
+        </button>
+      </div>
+        
+      <div class="add-item">
+        <button mat-raised-button color="primary" (click)="addToCart(song)" appHoverButton> 
+          <mat-icon> add_shopping_cart </mat-icon>
+        </button>
+      </div>
+        
+      <div class="last-item">
+
+        <div class="price-item">
+          <form class="display-form-half">
+            <mat-form-field>
+              <mat-label>Price</mat-label>
+              <input matInput value='{{song.price}}$' readonly/>
+            </mat-form-field>
+          </form>
+        </div>
+
+        <div class="remix-item">
+          <form class="display-form-half">
+            <mat-form-field>
+              <mat-label>Remix</mat-label>
+              <input matInput value={{song.remix}} readonly/>
+            </mat-form-field>
+          </form>
+        </div>
+
+      </div>
+
+    </mat-card>
+
+    <button mat-fab color="primary" *ngIf = "role==='Admin'" (click)="add()" appHoverButton> 
+      <mat-icon> add </mat-icon>
+    </button>
+  
+  </mat-card>
+
+  <div>
+    <button mat-fab color="primary" style="margin-bottom:30px;" (click)="saveEdits()" appHoverButton>
+      <mat-icon> save </mat-icon>
+    </button>
+  </div>
+  
+</div>
+  
+<app-footer></app-footer>

@@ -1,0 +1,18 @@
+.title {
+    font-size: 30px;
+    background: -webkit-linear-gradient(rgb(117, 155, 29), rgb(211, 53, 216));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .main-grid{
+      display: grid;
+      grid-template-columns: max-content auto;
+      padding:20px;
+      background-image: url("../../../../assets/media/header-background.jpg");
+    }
+  
+  .grid-item-title{
+    padding-top: 10px;
+    padding-left: 20px;
+  }

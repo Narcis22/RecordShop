@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="grid-genres" >
+    <mat-card class="genre-list-grid" *ngFor="let genre of genres">
+
+      <div class="name-item">
+        <form class="display-form">
+          <mat-form-field>
+            <mat-label>Genre</mat-label>
+            <input matInput value={{genre.name}} readonly/>
+          </mat-form-field>
+        </form>
+      </div>
+
+      <div class="edit-item" *ngIf="isAdmin()">
+          <button mat-raised-button color="primary" (click)="edit(genre)" appHoverButton> 
+            <mat-icon> edit </mat-icon>
+          </button>
+      </div>
+
+      <div class="select-item">
+        <button mat-raised-button color="primary" (click)="select(genre)" appHoverButton> 
+          <mat-icon> add </mat-icon>
+        </button>
+      </div>
+
+    </mat-card>
+  </div>
+    
+  <button mat-fab color="primary" *ngIf="isAdmin()" (click)="add()" style="margin:15px;" appHoverButton> 
+    <mat-icon> add </mat-icon>
+  </button>
+      
+  <button mat-fab color="primary" *ngIf="isAdmin()" (click)="delete()" style="margin:15px;" appHoverButton> 
+    <mat-icon> delete </mat-icon>
+  </button>
+</div>
+
+

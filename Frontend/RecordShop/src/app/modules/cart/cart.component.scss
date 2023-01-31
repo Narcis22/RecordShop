@@ -1,0 +1,61 @@
+
+
+.order-total{
+  font-size: 30px;
+  padding: 50px;
+  width: 70%;
+}
+
+.empty{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.back-to-songs{
+    margin-left: 20px;
+    float: left;
+}
+
+.grid-bttn{
+  padding-top:100px;
+}
+
+.standard-bttn{
+    margin-right: 20px;
+    float: right;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  .cart-card{
+    margin: 50px;
+    width: 80%;
+    background-color:#2E22AC;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+
+    .cart-elem-grid{
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto auto;
+      background-color: dodgerblue;
+      margin:3px;
+      width:80%;
+      border-radius: 10px;
+    }
+  }
+
+
+}
+
+
+::ng-deep .mat-form-field-underline {
+  display: none;
+}

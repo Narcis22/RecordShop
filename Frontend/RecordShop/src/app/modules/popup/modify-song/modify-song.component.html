@@ -1,0 +1,42 @@
+<div class="container">
+  <h1 class="title">
+    {{ title }}
+  </h1>
+
+  <form [formGroup]="songForm" class="form">
+
+    <mat-form-field appearance="outline">
+      <mat-label>Name</mat-label>
+      <input matInput placeholder="Name" formControlName="name"/>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Price</mat-label>
+      <input matInput placeholder="Price" formControlName="price"/>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Duration</mat-label>
+      <input matInput placeholder="Duration" formControlName="Duration"/>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>ReleaseYear</mat-label>
+      <input matInput placeholder="ReleaseYear" formControlName="releaseYear"/>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Remix</mat-label>
+      <input matInput placeholder="Remix" formControlName="remix"/>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Album</mat-label>
+      <input matInput placeholder="Album" formControlName="album"/>
+    </mat-form-field>
+    
+  </form>
+  
+  <button mat-raised-button (click)="!data.song?add():edit()" appHoverButton> Save </button>
+</div> 
+
