@@ -1,4 +1,4 @@
-# RecordShop
+# ![Record Shop logo](https://user-images.githubusercontent.com/62501946/215891191-2e3f6d94-bf8f-4246-8752-a20903542ac5.png) RecordShop
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is a web app made using .NET (C#) javascript, Angular (for frontend) and SSMS (for database). It represents a record shop.
 you can use the website to see the products available withouth logging in or registering, but in order for you to buy anything you have to login(or register if you don't have a account already).
