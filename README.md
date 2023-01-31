@@ -15,16 +15,31 @@ you can use the website to see the products available withouth logging in or reg
  <br>
  </details>
 
-- Reused components - Used Header an Footer for each page as reusable elements
+ <details>
+ <summary><i><b>Reused components - Used Header an Footer for each page as reusable elements</b></i></summary>
+ <br> 
+
+ <img width="1920" alt="Reusable elements" src="https://user-images.githubusercontent.com/62501946/215888217-db19be26-c89a-4ca8-b9b3-e1c7c5346ac7.png">
  <br>
- - Comunication between components - Have sent information as parameter between songs and genre components
+ <img width="1652" alt="Header footer used" src="https://user-images.githubusercontent.com/62501946/215889170-645891cb-63b8-4de3-b731-15b4257fce26.png">
+
  <br>
+ </details>
+ 
+ <details>
+ <summary><i><b>Comunication between components - Have sent information as parameter between songs and genre components</b></i></summary>
+ <br> 
+ 
+ <img width="1652" alt="Communication between elements" src="https://user-images.githubusercontent.com/62501946/215889761-0edb8674-d558-4870-86c1-c6a6739b0dc2.png">
+
+ <br>
+ </details>
  
  <details>
  <summary><i><b>Public and prive routes</b></i></summary>
  <br> 
  
- <img width="1168" alt="More than one route" src="https://user-images.githubusercontent.com/62501946/215884983-3ff4ebcb-aa30-43ef-bdb6-8c5c3ea8ec4d.png">
+ <img width="1168" alt="More than one route" src="https://user-images.githubusercontent.com/62501946/215888057-88f57474-f9c2-44da-9713-72a338205553.png">
 
  <br>
  </details>
